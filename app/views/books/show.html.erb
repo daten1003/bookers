@@ -1,0 +1,12 @@
+<div class="flash-show">
+    <%= flash[:notice] %>
+</div>
+
+
+<p>Title:<%= @book.title %></p>
+
+<p>Body:<%= @book.body %></p>
+
+<%= link_to "Edit", edit_book_path(@book.id) %>
+ <span>|</span>
+<a href="https://7068ffdd0f5c4a818996e63699b8ac57.vfs.cloud9.ap-northeast-1.amazonaws.com/books">Back</a>
